@@ -2,7 +2,7 @@
   <a href="./README.md">
     <img src="https://img.shields.io/badge/lang-English-blue.svg" alt="English">
   </a>
-  <a href="./README.zh-TW.md">
+  <a href="./README.zh-Hant.md">
     <img src="https://img.shields.io/badge/lang-繁體中文-green.svg" alt="Traditional Chinese">
   </a>
   <a href="./README.ja.md">
