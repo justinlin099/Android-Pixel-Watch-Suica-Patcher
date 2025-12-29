@@ -45,6 +45,7 @@ jobs:
           keyAlias: ${{ secrets.ALIAS }}             # 從 alias 改為 keyAlias
           keyStorePassword: ${{ secrets.KEY_STORE_PASSWORD }}
           keyPassword: ${{ secrets.KEY_PASSWORD }}
+          buildToolsVersion: 34.0.0
 
       # 自動發布到 GitHub Releases
       - name: Create Release
