@@ -39,13 +39,12 @@ jobs:
         uses: ilharp/sign-android-release@v1
         id: sign_app
         with:
-          releaseDirectory: app/build/outputs/apk/release
-          signingKeyBase64: ${{ secrets.SIGNING_KEY }}
-          alias: ${{ secrets.ALIAS }}
+          # 參數名稱修改如下：
+          releaseDir: app/build/outputs/apk/release  # 從 releaseDirectory 改為 releaseDir
+          signingKey: ${{ secrets.SIGNING_KEY }}     # 從 signingKeyBase64 改為 signingKey
+          keyAlias: ${{ secrets.ALIAS }}             # 從 alias 改為 keyAlias
           keyStorePassword: ${{ secrets.KEY_STORE_PASSWORD }}
           keyPassword: ${{ secrets.KEY_PASSWORD }}
-        # 如果你的 apk 產出路徑不同，請修改 releaseDirectory
-        # 通常預設是 app/build/outputs/apk/release
 
       # 自動發布到 GitHub Releases
       - name: Create Release
