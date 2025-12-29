@@ -1,4 +1,4 @@
-<img src="https://github.com/user-attachments/assets/da50d8ea-cb21-4d51-895c-b237e924f745" alt="PWS Patcher Banner" style="max-width: 300px; width: 80%; height: auto;">
+<img src="https://github.com/user-attachments/assets/14b08cf8-898a-4dcc-a354-392f04b7d279" alt="PWS Patcher Banner" style="height: 400px;">
 
 
 # Pixel Watch Suica Patcher
@@ -12,3 +12,4 @@ A Lsposed Module for Spoofing GMS services to Enable Suica and Pasmo Capability 
   &nbsp;
   <img src="https://github.com/user-attachments/assets/49433045-bf1f-450f-a12e-de7f142bf7be" height="250" />
 </p>
+
