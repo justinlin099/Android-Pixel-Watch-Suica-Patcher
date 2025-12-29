@@ -36,7 +36,7 @@ jobs:
 
       # 簽名 APK (使用你設定的 Secrets)
       - name: Sign Android Release
-        uses: r0adkll/sign-android-release@v1
+        uses: ilharp/sign-android-release@v1
         id: sign_app
         with:
           releaseDirectory: app/build/outputs/apk/release
