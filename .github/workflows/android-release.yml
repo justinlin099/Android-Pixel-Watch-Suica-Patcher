@@ -48,13 +48,20 @@ jobs:
           buildToolsVersion: 34.0.0
 
       # 自動發布到 GitHub Releases
+     # 2. 【修改】改名時加上 Tag 版本號
+      - name: Rename Signed APK
+        run: |
+          # github.ref_name 代表你的 Tag (例如 v1.0.0)
+          # 結果會變成: PWS_Patcher_v1.0.0.apk
+          mv "${{ steps.sign_app.outputs.signedFile }}" "app/build/outputs/apk/release/PWS_Patcher_${{ github.ref_name }}.apk"
+
+      # 3. 【修改】上傳對應檔名的 APK
       - name: Create Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          # 修改這裡：直接使用萬用字元抓取該資料夾下所有的 APK
-          files: app/build/outputs/apk/release/*.apk
-          
+          # 這裡也要用變數去抓剛剛改好名字的檔案
+          files: "app/build/outputs/apk/release/PWS_Patcher_${{ github.ref_name }}.apk"
           generate_release_notes: true
           draft: false
           prerelease: false
