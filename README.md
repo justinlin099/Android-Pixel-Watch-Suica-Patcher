@@ -1,6 +1,4 @@
-<img src="https://github.com/user-attachments/assets/14b08cf8-898a-4dcc-a354-392f04b7d279" width="100%" alt="PWS Patcher Banner">
-
-<p align="center">
+<p align="left">
   <a href="./README.md">
     <img src="https://img.shields.io/badge/lang-English-blue.svg" alt="English">
   </a>
@@ -11,6 +9,8 @@
     <img src="https://img.shields.io/badge/lang-日本語-red.svg" alt="Japanese">
   </a>
 </p>
+
+<img src="https://github.com/user-attachments/assets/14b08cf8-898a-4dcc-a354-392f04b7d279" width="100%" alt="PWS Patcher Banner">
 
 # Pixel Watch Suica Patcher
 
@@ -31,7 +31,7 @@ This is an LSPosed module that spoofs GMS services on your **connected Android p
 
 ## ✨ Features
 * **No Japanese SIM Card Required:** Bypass the carrier check.
-* **Software Unlocking:** Works by patching the Google Watch App / GMS on your phone.
+* **Software Unlocking:** Works by patching the GMS (Google Play Services) on your phone.
 * **Easy Setup:** No need to root the watch itself, only the phone needs to be rooted.
 
 ## ⚠️ Prerequisites
@@ -45,8 +45,8 @@ This is an LSPosed module that spoofs GMS services on your **connected Android p
 1.  Download the latest APK from the [Releases](../../releases) page.
 2.  Install the APK on your **Phone**.
 3.  Open the **LSPosed Manager** notification.
-4.  Enable the **PWS Patcher** module.
-5.  Ensure the recommended apps (usually Google Play Services and the Pixel Watch App) are checked in the scope.
+4.  Enable the **PW Suica Patcher** module.
+5.  Ensure the recommended apps (Google Play Services) are checked in the scope.
 6.  **Reboot your Phone**.
 
 ## 🚀 How to Use
@@ -54,7 +54,7 @@ Since Google performs region checks (IP and GPS) during the initial card creatio
 
 1.  **Spoof Location (Crucial for first setup):**
     * Connect your phone to a **VPN to Japan**.
-    * (Recommended) Use a GPS Spoofing app to set your phone's location to Tokyo, Japan.
+    * (Recommended) Use a GPS Spoofing app to set your phone's location to Japan.
 2.  Open the **Google Pixel Watch App** on your phone.
 3.  Go to **Google Wallet** -> **Add to Watch** -> **Transit Pass**.
 4.  You should now see the options for **Suica** or **Pasmo**.
@@ -68,4 +68,4 @@ Since Google performs region checks (IP and GPS) during the initial card creatio
 * Use at your own risk.
 
 ---
-<p align="center">Made with ❤️ for Pixel Watch Users</p>
+<p align="center">Made with ❤️ by JustinLin099</p>
