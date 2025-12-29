@@ -52,7 +52,7 @@ This is an LSPosed module that spoofs GMS services on your **connected Android p
 ## 🚀 How to Use
 Since Google performs region checks (IP and GPS) during the initial card creation process:
 
-1.  **Spoof Location (Crucial for first setup):**
+1.  **Spoof Location (Might not be unnecessary):**
     * Connect your phone to a **VPN to Japan**.
     * (Recommended) Use a GPS Spoofing app to set your phone's location to Japan.
 2.  Open the **Google Pixel Watch App** on your phone.
