@@ -52,7 +52,9 @@ jobs:
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: ${{ steps.sign_app.outputs.signedReleaseFile }}
+          # 修改這裡：直接使用萬用字元抓取該資料夾下所有的 APK
+          files: app/build/outputs/apk/release/*.apk
+          
           generate_release_notes: true
           draft: false
           prerelease: false
