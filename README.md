@@ -1,8 +1,5 @@
-# Android Pixel Watch Suica Patcher
+# Pixel Watch Suica Patcher
 Spoof GMS services to Enable Suica and Pasmo Capability on non-Japanese Pixel Watch
-
-# Android Pixel Watch Suica Patcher
-Spoof GMS services to Enable Suica Capability on non-Japanese Pixel Watch
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/63f1e557-00a1-480d-8e8a-d84eef087eed" height="250" />
